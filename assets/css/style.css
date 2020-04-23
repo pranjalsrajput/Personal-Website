@@ -43,11 +43,11 @@ body::before {
 }
 @keyframes chbg {
   0% {
-    background:url("../img/bg.jpg");
+    background:url("../img/bg1.jpg");
   background-size:cover
   }
   25% {
-    background:url("../img/bg1.jpg");
+    background:url("../img/bg.jpg");
   background-size:cover
   }
   50% {

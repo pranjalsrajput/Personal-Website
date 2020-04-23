@@ -43,7 +43,7 @@ body::before {
 }
 @keyframes chbg {
   0% {
-    background:url("../img/bg1.jpg");
+    background:url("../img/bg3.jpg");
   background-size:cover
   }
   25% {

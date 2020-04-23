@@ -33,7 +33,7 @@ body::before {
     rgba(0,0,0,0.6),
     rgba(0,0,0,0.6)
     ),
-  url("../img/bg.jpg");
+  url("../img/bg1.jpg");
   animation: chbg 30s infinite alternate;
   background-size: cover;
   left: 0;

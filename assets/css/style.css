@@ -4,7 +4,6 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
-  -webkit-backface-visibility: inherit;
 }
 
 /*body::before {
@@ -33,7 +32,6 @@ body::before {
   right: 0;
   top: 0;
   height: 100vh;
-  -webkit-backface-visibility: inherit;
 }
 @keyframes chbg {
   0% {
@@ -53,14 +51,14 @@ body::before {
   background-size:cover
   }
   100% {
-    background:url("../img/bg.png");
+    background:url("../img/bg.jpg");
   background-size:cover
   }
 }
 
 @media (min-width: 1024px) {
   body::before {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Localization and Activity Recognition App Using Particle Filters
-date: 2019-03-30
+date: 2019-03-31
 github_link: https://github.com/pranjalsrajput/Smartphone-Sensing
 description: Smartphone sensing project
 img: projects/particleFilter.png # Add image post (optional)

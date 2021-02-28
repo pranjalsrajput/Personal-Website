@@ -1,0 +1,98 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Pranjal Singh Rajput
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal Website of PS Rajput
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://pranjalsrajput.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Author Settings
+author: Pranjal Singh Rajput # add your name
+author-img: me.JPG # add your photo
+about-author: I am a deep learning enthusiast and a full-stack software developer. Always keen to learn new things. # add description
+social-twitter: PSR001 # add your Twitter handle
+social-github: pranjalsrajput # add your Github handle
+social-linkedin: pranjalsrajput # add your Linkedin handle
+social-googlescholar: citations?user=gYDb-e4AAAAJ&hl=en&authuser=3 # add your Google Scholar profile
+social-email: pranjal.manit@gmail.com # add your Email address
+social-instagram: pranjalsrajput # add your Instagram handle
+social-facebook: pranjal.singhrajput # add your Facebook handle
+
+
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-paginate-multiple
+
+# paginate: 8
+# paginate_path: "page/:num"
+
+paginate_multiple:
+  - paginate: 10
+    paginate_path: '/summerschool/page/:num/'
+    sub_dir: '/summerschool/'
+  - paginate: 10
+    paginate_path: '/projects/page/:num/'
+    sub_dir: '/projects/'
+  - paginate: 10
+    paginate_path: '/work_ex/page/:num/'
+    sub_dir: '/work_ex/'
+  - paginate: 10
+    paginate_path: '/teaching/page/:num/'
+    sub_dir: '/teaching/'
+  # - paginate: 10
+  #   paginate_path: '/blogs/page/:num/'
+  #   sub_dir: '/blogs/'
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

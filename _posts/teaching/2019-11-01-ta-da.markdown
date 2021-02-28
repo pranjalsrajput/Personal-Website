@@ -1,0 +1,15 @@
+---
+layout: post
+title: Teaching Assistant, IN4150 Distributed Algorithms, TU Delft
+start_date: 2019-11-01
+end_date: 2020-02-15
+description: Teaching Assistant, Distributed Algorithms, TU Delft
+img: teaching/distributedAlgorithms.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Distributed Systems, Distributed Algorithms]
+---
+
+## Responsibilities
+
+Guiding 2 student projects, lab assignments, and evaluation of weekly assignments.
+

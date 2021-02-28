@@ -1,0 +1,19 @@
+---
+layout: post
+title: Summer Internship, IIT Indore
+start_date: 2014-05-01
+end_date: 2014-06-31
+description: Summer Internship IIT Indore
+img: work_ex/iit_indore_logo.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [iiti]
+---
+
+## Description:
+
+
+
+Worked on 'Face Recognition' project. The algorithm used was Principal Component Analysis, for the reduction of number of variables in face recognition.
+
+
+

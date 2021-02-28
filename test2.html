@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<style>
+    /* body {
+  margin: 0;
+} */
+iframe {
+  height:calc(100vh - 4px);
+  width:calc(100vw - 4px);
+  box-sizing: border-box;
+}
+</style>
+
+<body>
+    <div>
+        <iframe src="test.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+  
+        <!-- <iframe frameborder="0" allowfullscreen src="test.html"
+        onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe> -->
+    </div>
+    
+
+</body>
+</html>

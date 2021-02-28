@@ -1,0 +1,15 @@
+---
+layout: post
+title: Teaching Assistant, CS4240 Deep Learning, TU Delft
+start_date: 2020-02-01
+end_date: 2020-05-01
+description: Teaching Assistant, Deep Learning, TU Delft
+img: teaching/deeplearning.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Computer Vision, AI, Deep Learning]
+---
+
+## Responsibilities
+
+Guiding 5 student projects, lab assignments, and evaluation of weekly assignments.
+

@@ -1,0 +1,16 @@
+---
+layout: post
+title: Architectural Analysis & Contribution in FLAIR
+date: 2019-03-20
+github_link: https://github.com/pranjalsrajput/Architectural-Analysis-FLAIR
+description: Software Architecture Project
+img: projects/FLAIR.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Software, Open Source Projects]
+---
+
+## Description
+Analyzed the complete architecture of FLAIR, a state-of-the-art Natural Language Processing Python library used for various tasks such as Named entity recognition, Part-of-Speech tagging. Also contributed to the open source project by upgrading the system code quality from grade C to A.
+
+
+

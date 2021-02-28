@@ -1,0 +1,16 @@
+---
+layout: post
+title: Stabilization of the Quadruple drone
+date: 2019-06-30
+github_link: https://github.com/shivangi-aneja/Deep-Image-Composting
+description: Embedded Software Project
+img: projects/drone.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Embedded Systems, Drones, Android App]
+---
+
+## Description
+The task was to stabilize a quadruple drone such that it can fly and hover in different environment condition using limited user controls . We implemented different modes of operations such as panic mode, safe mode, manual mode,calibration mole, full mode, raw mode, height control mode, and wireless mode. We also developed an android app "Flydrone" to control the different modes of drone navigation using an android mobile.
+
+
+

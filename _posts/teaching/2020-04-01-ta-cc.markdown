@@ -1,0 +1,15 @@
+---
+layout: post
+title: Teaching Assistant, IN4392 Cloud Computing, TU Delft
+start_date: 2020-04-01
+end_date: 2020-07-01
+description: Teaching Assistant, Cloud Computing, TU Delft
+img: teaching/cloudcomputing.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Computer Vision, AI, Machine Learning]
+---
+
+## Responsibilities
+
+Graded the scientific paper reviews submitted by students.
+

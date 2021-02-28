@@ -1,0 +1,8 @@
+@misc{aneja2020generalized,
+    title={Generalized Zero and Few-Shot Transfer for Facial Forgery Detection},
+    author={Shivangi Aneja and Matthias Nießner},
+    year={2020},
+    eprint={2006.11863},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}

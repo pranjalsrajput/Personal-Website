@@ -7,6 +7,7 @@ description: Smartphone sensing project
 img: projects/particleFilter.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Android Apps, Smartphone Sensing]
+permalink: "/sps-project-particle/"
 ---
 
 ## Localization and Activity Recognition Apps

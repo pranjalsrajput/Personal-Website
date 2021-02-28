@@ -7,6 +7,7 @@ description: Smartphone sensing project
 img: projects/bayesianFilter.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Android Apps, Smartphone Sensing]
+permalink: "/sps-project-bayesian/"
 ---
 
 ## Localization and Activity Recognition Apps

@@ -7,6 +7,7 @@ description: Deep Learning Project
 img: projects/cgans.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [GANs, Deep Learning]
+permalink: "/dl-project/"
 ---
 
 ## Problem Statement

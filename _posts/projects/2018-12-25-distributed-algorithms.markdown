@@ -7,6 +7,7 @@ description: Distributed Algorithms Project
 img: projects/distributedAlgorithms.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Distributed Systems, Algorithms]
+permalink: "/da-project/"
 ---
 
 ## Description

@@ -7,6 +7,7 @@ description: Internship project at CV Lab
 img: projects/data_collection_project.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Medical Imaging, Detection]
+permalink: "/data-collection-project/"
 ---
 
 ## Description

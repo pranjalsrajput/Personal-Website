@@ -63,8 +63,8 @@ paginate_multiple:
     paginate_path: '/summerschool/page/:num/'
     sub_dir: '/summerschool/'
   - paginate: 10
-    paginate_path: '/projects/page/:num/'
-    sub_dir: '/projects/'
+    paginate_path: '/researchprojects/page/:num/'
+    sub_dir: '/researchprojects/'
   - paginate: 10
     paginate_path: '/work_ex/page/:num/'
     sub_dir: '/work_ex/'

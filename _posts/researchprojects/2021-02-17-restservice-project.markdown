@@ -108,7 +108,7 @@ A sample request is shown in figure below. Only `inputArray` field is required a
 
 ```
 <p float="center">
-  <img src="/assets/img/projects/rest-api-project/task01.JPG" width="100%" />
+  <img src="/assets/img/projects/rest-api-project/task01.jpeg" width="100%" />
 </p>
 
 For Task 2, the API url is `http://localhost:8080/algorithm02`. Both `inputArray` field as well as `nodePair` are required. The API returns boolean value that specifies if the nodes in `nodePair` share at least one common ancestor.
@@ -122,5 +122,5 @@ A sample request is shown in figure below,
 }
 ```
 <p float="center">
-  <img src="/assets/img/projects/rest-api-project/task02.JPG" width="100%" />
+  <img src="/assets/img/projects/rest-api-project/task02.jpeg" width="100%" />
 </p>

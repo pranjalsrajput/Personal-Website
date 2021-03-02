@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>REST API using Spring - Pranjal Singh Rajput</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Pranjal Singh Rajput" property="og:site_name">
+  
+  
+    <meta content="REST API using Spring" property="og:title">
+  
+
+  
+    <meta content="article" property="og:type">
+  
+
+  
+    <meta content="REST API using Spring" property="og:description">
+  
+
+  
+    <meta content="http://pranjalsrajput.github.io//restapi-project/" property="og:url">
+  
+
+  
+    <meta content="2021-02-17T00:00:00+01:00" property="article:published_time">
+    <meta content="http://pranjalsrajput.github.io//about/" property="article:author">
+  
+
+  
+    <meta content="http://pranjalsrajput.github.io//assets/img/projects/rest.png" property="og:image">
+  
+
+  
+    
+  
+  
+    
+    <meta content="REST" property="article:tag">
+    
+    <meta content="Webservice" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@PSR001">
+  
+    <meta name="twitter:title" content="REST API using Spring">
+  
+  
+    <meta name="twitter:url" content="http://pranjalsrajput.github.io//restapi-project/">
+  
+  
+    <meta name="twitter:description" content="REST API using Spring">
+  
+  
+    <meta name="twitter:image:src" content="http://pranjalsrajput.github.io//assets/img/projects/rest.png">
+  
+
+	<meta name="description" content="REST API using Spring">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.JPG" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.JPG">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.JPG">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.JPG">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/me.JPG" alt="Pranjal Singh Rajput"></a>
+      </div>
+      <div class="author-name">Pranjal Singh Rajput</div>
+      <p>I am a deep learning enthusiast and a full-stack software developer. Always keen to learn new things.</p>
+      <a class="title" target="_blank" href="/assets/resume.pdf">
+                                                    <font> <b>View CV </b></font></a>
+
+    </div>
+
+   
+    <div class="sidebar-link">
+      <a href="/researchprojects">
+                                                    <font> <b>Research Projects</b></font></a>
+       <br>
+       <a href="/work_ex">
+                                                    <font> <b>Work Experience</b></font></a>
+      <br>
+      <a href="/teaching">
+                                                    <font> <b>Teaching</b></font></a>
+      <br>
+       <a href="/summerschool">
+                                                    <font> <b>Summer Schools</b></font></a>
+      <!-- <br>
+      <a href="/blogs">
+                                                    <font> <b>Blogs </b></font></a> -->
+    </div>
+
+    
+
+    <div class="sidebar-link">
+      
+    </div>
+
+
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/PSR001" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="github"><a href="http://github.com/pranjalsrajput" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/pranjalsrajput" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li><a href="https://scholar.google.com/citations?user=gYDb-e4AAAAJ&hl=en&authuser=3" target="_blank"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://instagram.com/pranjalsrajput" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/pranjal.singhrajput" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:pranjal.manit@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2021 &copy; Pranjal Singh Rajput</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/projects/rest.png alt="REST API using Spring">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">REST API using Spring</h1>
+        <div class="page-date"><span>2021, Feb 17&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <h1 id="rest-api-using-spring">REST API using Spring</h1>
+
+<p>A REST API is developed using spring framework. The API takes the input, and provides the results of task 1 and task 2. The two tasks are described below in details.</p>
+
+<h1 id="tasks">Tasks</h1>
+
+<h2 id="task-1---the-algorithm">Task 1 - The Algorithm</h2>
+
+<p>Suppose we have some input data describing relationships between nodes over multiple generations. The input data is formatted as a list of 
+(parent, child) pairs, where each is assigned a unique integer 
+identifier.</p>
+
+<p>For example, in this diagram, 3 is a child of 10 and 2, and 5 is a child of 4:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10  2   4
+ \ /   / \
+  3   5   8
+   \ / \   \
+    6   7   9
+</code></pre></div></div>
+<p>Sample graph as input data</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Java </span>
+<span class="kt">int</span><span class="o">[][]</span> <span class="n">parentChildPairs</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[][]</span> <span class="o">{</span>
+    <span class="o">{</span><span class="mi">10</span><span class="o">,</span> <span class="mi">3</span><span class="o">},</span> <span class="o">{</span><span class="mi">2</span><span class="o">,</span> <span class="mi">3</span><span class="o">},</span> <span class="o">{</span><span class="mi">3</span><span class="o">,</span> <span class="mi">6</span><span class="o">},</span> <span class="o">{</span><span class="mi">5</span><span class="o">,</span> <span class="mi">6</span><span class="o">},</span> <span class="o">{</span><span class="mi">5</span><span class="o">,</span> <span class="mi">7</span><span class="o">},</span>
+    <span class="o">{</span><span class="mi">4</span><span class="o">,</span> <span class="mi">5</span><span class="o">},</span> <span class="o">{</span><span class="mi">4</span><span class="o">,</span> <span class="mi">8</span><span class="o">},</span> <span class="o">{</span><span class="mi">8</span><span class="o">,</span> <span class="mi">9</span><span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>The main task is to take this data as input and return collections:</p>
+
+<ul>
+  <li>one containing all individuals with zero known parents, and</li>
+  <li>one containing all individuals with exactly one known parent.</li>
+</ul>
+
+<p>Sample result for the sample graph</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Zero parents: 10, 2, 4
+One parent: 5, 7, 8, 9
+</code></pre></div></div>
+
+<h3 id="requirements">Requirements</h3>
+
+<ul>
+  <li>Output order is irrelevant.</li>
+  <li>The IDs are not guaranteed to be contiguous.</li>
+  <li>The input is not necessarily a connected graph. There may be &gt;3 generations.</li>
+  <li>No node in the input set will have more than two parents, nor will there be duplicate entries.</li>
+  <li>No node in the input is their parent.</li>
+</ul>
+
+<h2 id="task-2---complex-relationships">Task 2 - Complex relationships</h2>
+
+<p>Based on Task 1, check that if any two given individuals in the dataset share at least one known ancestor.</p>
+
+<p>Example based on the sample graph of Task 1 two nodes input:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[3, 8] =&gt; false
+[5, 8] =&gt; true
+[6, 8] =&gt; true
+</code></pre></div></div>
+
+<h2 id="task-3---rest-with-spring">Task 3 - REST with Spring</h2>
+
+<p>The task is to develop a REST service that provides Task 1 and Task 2 via an API. Given an input graph, the application must provide the result for Task 1 and Task 2 via API. For Task 2 it shall take user input (for the node pair).</p>
+
+<h2 id="working-of-task-01">Working of Task 01</h2>
+
+<p>Given a graph as input, the task is to find nodes with no or one parents. The graph is input as a single string in form of an array of (parent,child) pairs. Press enter to convert and generate the graph. The class method countNumberofParents() is then called that traverses the parents for each node using Breadth First Traversal and returns nodes with zero or one parent. A sample run for the task is shown in screenshot below.</p>
+
+<p><img src="/assets/img/projects/rest-api-project/algorithm01.jpeg" width="60%" /></p>
+
+<h2 id="working-of-task-02">Working of Task 02</h2>
+
+<p>Given a graph and a node-pair present in the graph as input, the task is to find if the node-pair share atleast one common ancestor. Similar to task 01, the graph is input as a single String in form of an array of <code class="language-plaintext highlighter-rouge">(parent,child)</code> pairs. Press enter and then input node-pair present in the graph as a String. Press enter again to generate the graph and find common ancestors of the node-pair. The graph is traversed using  <code class="language-plaintext highlighter-rouge">Breadth First Traversal</code> to find the ancestors of specified node-pair and returns <code class="language-plaintext highlighter-rouge">true</code> if they have at least one common ancestor otherwise <code class="language-plaintext highlighter-rouge">false</code>. A sample run of the task is shown in screenshot below</p>
+
+<p><img src="/assets/img/projects/rest-api-project/algorithm02.jpeg" width="60%" /></p>
+
+<h2 id="sending-requests-to-the-api">Sending requests to the API</h2>
+
+<p>A chrome extension <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en">Postman</a> is used for sending API requests.
+Data is sent using <code class="language-plaintext highlighter-rouge">Post</code>requests to the API. The input is a json object with 2 fields <code class="language-plaintext highlighter-rouge">inputArray</code> and <code class="language-plaintext highlighter-rouge">nodePair</code>. The <code class="language-plaintext highlighter-rouge">inputArray</code> is the graph input that consists of an array of (parent,child) pairs, which is passed as string to the API. The <code class="language-plaintext highlighter-rouge">nodePair</code> is pair of two nodes present in the graph that is used to identify if they share common ancestor.</p>
+
+<p>For Task 1, the API url is <code class="language-plaintext highlighter-rouge">http://localhost:8080/algorithm01</code></p>
+
+<p>A sample request is shown in figure below. Only <code class="language-plaintext highlighter-rouge">inputArray</code> field is required and <code class="language-plaintext highlighter-rouge">nodePair</code> is sent as empty string. The API returns 2 lists <code class="language-plaintext highlighter-rouge">Zero parent</code> and  <code class="language-plaintext highlighter-rouge">One parent</code> that specifies number of nodes having no parent and one parent respectively.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"inputArray"</span><span class="p">:</span><span class="w"> </span><span class="s2">"{ {10, 3}, {2, 3},{3, 6}, { 5, 6},{5, 7},{4, 5},{4, 8},{8, 9} }"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"nodePair"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+<p float="center">
+  <img src="/assets/img/projects/rest-api-project/task01.JPG" width="100%" />
+</p>
+
+<p>For Task 2, the API url is <code class="language-plaintext highlighter-rouge">http://localhost:8080/algorithm02</code>. Both <code class="language-plaintext highlighter-rouge">inputArray</code> field as well as <code class="language-plaintext highlighter-rouge">nodePair</code> are required. The API returns boolean value that specifies if the nodes in <code class="language-plaintext highlighter-rouge">nodePair</code> share at least one common ancestor.</p>
+
+<p>A sample request is shown in figure below,</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+	</span><span class="nl">"inputArray"</span><span class="p">:</span><span class="w"> </span><span class="s2">"{ {10, 3}, {2, 3},{3, 6}, { 5, 6},{5, 7},{4, 5},{4, 8},{8, 9} }"</span><span class="p">,</span><span class="w">
+	</span><span class="nl">"nodePair"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3,8"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+<p float="center">
+  <img src="/assets/img/projects/rest-api-project/task02.JPG" width="100%" />
+</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=REST API using Spring&url=http://pranjalsrajput.github.io//restapi-project/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://pranjalsrajput.github.io//restapi-project/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://pranjalsrajput.github.io//restapi-project/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#REST" class="tag">&#35; REST</a>
+          
+            <a href="/tags#Webservice" class="tag">&#35; Webservice</a>
+          
+        </div>
+      </div>
+      
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
